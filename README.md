@@ -4,11 +4,11 @@ Premium creative studio website featuring a live 3D waterfall experience built w
 
 ## Tech Stack
 
-- **Next.js 14.2.35** (App Router)
-- **React 18.3.1** + TypeScript
+- **Next.js 15.5.19** (App Router)
+- **React 19.2.7** + TypeScript
 - **Tailwind CSS** + shadcn/ui
-- **Framer Motion** + **GSAP** + **Lenis** smooth scroll
-- **Three.js** + **React Three Fiber** + **Drei** (3D waterfall with custom GLSL shaders)
+- **Framer Motion 12** + **GSAP** + **Lenis** smooth scroll
+- **Three.js** + **React Three Fiber v9** + **Drei v10** (3D waterfall with custom GLSL shaders)
 
 ## Development
 

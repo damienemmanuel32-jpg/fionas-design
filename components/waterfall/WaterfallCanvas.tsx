@@ -17,8 +17,8 @@ import {
 import { createRockGeometry, createRockMaterial, createMossMaterial } from './rockGeometry';
 
 interface SceneProps {
-  scrollRef: React.MutableRefObject<number>;
-  mouseRef: React.MutableRefObject<{ x: number; y: number }>;
+  scrollRef: React.RefObject<number>;
+  mouseRef: React.RefObject<{ x: number; y: number }>;
 }
 
 function WaterfallSurface({ scrollRef, mouseRef }: SceneProps) {
@@ -299,8 +299,8 @@ function Scene({ scrollRef, mouseRef }: SceneProps) {
 }
 
 interface WaterfallCanvasProps {
-  scrollRef: React.MutableRefObject<number>;
-  mouseRef: React.MutableRefObject<{ x: number; y: number }>;
+  scrollRef: React.RefObject<number>;
+  mouseRef: React.RefObject<{ x: number; y: number }>;
 }
 
 export default function WaterfallCanvas({ scrollRef, mouseRef }: WaterfallCanvasProps) {
